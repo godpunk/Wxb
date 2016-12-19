@@ -1,0 +1,129 @@
+@charset utf-8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100px;
+}
+body {
+ 
+  width: 4.14rem;
+  height: 7.36rem;
+  font-size: 12px;
+  position: relative;
+  background: #efefef;
+  height: 8rem;
+  
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ul,li{
+  list-style: none;
+}
+
+/*=============header=======*/
+#header{
+  background: #f9fafd;
+  height: 0.58rem;
+  width: 100%;
+  font-size: 0.16rem;
+  line-height: 0.58rem;
+}
+#header img{
+  margin-left: 0.17rem;
+}
+#header input{
+  width: 2.56rem;
+  height: 0.33rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.1rem;
+  margin-left: 0.46rem;
+  background: #f9fafd;
+  background-image:url(../img/mirror.jpg); 
+  background-repeat: no-repeat;
+  background-position:left center; 
+  text-indent: 0.2rem;
+  font-size: 0.18rem;
+}
+#header a{
+  display: inline-block;
+  margin-left:0.1rem; 
+  color: black;
+  font-size: 0.18rem;
+}
+/*=============hot==========*/
+#hot{
+  margin-top: 0.3rem;
+}
+#hot>a{
+  display: block;
+  font-size: 0.16rem;
+  margin-left: 0.3rem;
+  color: #888888;
+}
+#hot ul{
+  margin-top: 0.1rem;
+}
+#hot li{
+    float: left;
+    border: solid 1px #e4e4e4;
+    background-color: #FFF;
+    margin: .06rem .1rem .04rem 0;
+    padding: .08rem .15rem;
+    border-radius: .27rem;
+    color: #000;
+    display: list-item;
+    font-size: 0.18rem;
+    margin-left: 0.3rem;
+  }
+  #hot li a{
+    color: #000
+  }
+  #history{
+    clear: both;
+    margin-top: 2rem;
+  }
+#history>a{
+  display: block;
+  font-size: 0.16rem;
+  margin-left: 0.3rem;
+  color: #888888;
+}
+#history ul{
+  margin-top: 0.1rem;
+}
+#history li{
+    float: left;
+    border: solid 1px #e4e4e4;
+    background-color: #FFF;
+    margin: .06rem .1rem .04rem 0;
+    padding: .08rem .15rem;
+    border-radius: .27rem;
+    color: #000;
+    display: list-item;
+    font-size: 0.18rem;
+    margin-left: 0.3rem;
+  }
+  #history li a{
+    color: #000
+  }
+
+#button{
+    margin: 1.2rem .7rem;
+    text-align: center;
+    height: .55rem;
+    width: 2.7rem;
+    line-height: .4rem;
+    font-size: 0.16rem;
+    color: #aaa;
+    border: solid 1px #e0e0e0;
+    border-radius: .05rem;
+    background: #efefef;
+}

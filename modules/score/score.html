@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>search</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript">
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			recalc = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+			docEl.style.fontSize = 100 * (clientWidth / 414) + 'px';
+			};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/score.css">
+</head>
+<body>
+        <div class="header">          
+            <p><span>积分商城</span></p>
+            <div class="upscore">
+                    <p>可用积分<br>
+                        <span>0</span>
+                    </p>
+            </div>
+            <div class="fig">
+                    <figure>
+                    <img src="img/core.jpg">
+                        <figcaption>积分商城</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="img/circle.jpg">
+                        <figcaption>兑换记录</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="img/question.jpg">
+                        <figcaption>积分规则</figcaption>
+                    </figure>
+            </div>
+        </div>
+        <div class="main">
+            <figure>
+                <img src="img/three.jpg">
+                <figcaption>3元积分兑换券</figcaption>
+                <p>300积分</p>
+            </figure>
+            <figure>
+                <img src="img/five.jpg">
+                <figcaption>5元积分兑换券</figcaption>
+                <p>500积分</p>
+            </figure>
+            <figure>
+                <img src="img/eight.jpg">
+                <figcaption>8元积分兑换券</figcaption>
+                <p>800积分</p>
+            </figure>
+            <figure>
+                <img src="img/ten.jpg">
+                <figcaption>10元积分兑换券</figcaption>
+                <p>1000积分</p>
+            </figure>
+
+        </div>
+</body> 
+<html>

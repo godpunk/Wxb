@@ -1,0 +1,141 @@
+ul,li{
+  list-style: none;
+}
+.clearfixed:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+/*=================header==========*/
+.minehead{
+  width: 100%;
+  height: 1.88rem;
+  background: #ffd600;
+  background-image: url(../img/user.jpg);
+  background-repeat: no-repeat;
+  background-position: 0.2rem 0.3rem;
+  position: relative;
+
+}
+.minehead .message{
+  margin-left: 1.16rem;
+  padding-top: 0rem;
+  background-image: url(../img/right.jpg);
+  background-repeat: no-repeat;
+  background-position:2.5rem 0.6rem; 
+ 
+}
+.minehead .message p{
+  padding-top:0.4rem; 
+  color: white;
+  font-size: 0.16rem;
+  font-weight: 900;
+  margin-bottom: 0.1rem;
+}
+.minehead .shop{
+  height: 0.45rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  background:#f3c800;
+}
+.minehead .shop li{
+  float: left;
+  width: 45%;
+  height: 0.45rem;
+  text-align: center;
+  line-height: 0.45rem;
+}
+.minehead .shop li:nth-of-type(2){
+  width: 10%;
+}
+.minehead .shop li a{
+  color: white;
+  margin-left: 0.15rem;
+  font-size: 0.16rem;
+  vertical-align: middle;
+}
+/*===================list===========*/
+.list{
+  height: 1.56rem;
+  width: 100%;
+  background:white;
+  margin-top: 0.13rem;
+}
+
+.list ul li{
+ float: left;
+ height: 0.63rem;
+ width: 50%;
+ text-align: center;
+ line-height:0.63rem;
+ vertical-align: middle;
+ border-bottom: 1px solid #e0e0e0;
+}
+.list ul li a{
+  color: #333333;
+  font-size: 0.20rem;
+}
+.list ul li:nth-of-type(2) a{
+   color: #b1b1b1;
+    vertical-align: middle;
+    margin-right: 0.05rem;
+}
+.list figure{
+  width: 23%;
+  height: 0.92rem;
+  display: inline-block;
+  text-align: center;
+  margin-top:0.3rem; 
+}
+.list figure p{
+  margin-top: 0.15rem;
+
+}
+.list figure p a{
+  color: #333333;
+  font-size: 0.16rem
+}
+
+
+.down{
+  height: 2.55rem;
+  width: 100%;
+  background: white;
+  margin-top: 0.13rem;
+}
+.down figure{
+  width: 24%;
+  height: 1rem;
+  display: inline-block;
+  text-align: center;
+  margin-top: 0.3rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.down img{
+  width: 0.30rem;
+  height: 0.32rem;
+}
+.down figure p{
+  margin-top: 0.15rem;
+}
+.down figure p a{
+  color: #333333;
+  font-size: 0.16rem
+}
+
+.out{
+  width: 100%;
+  height: 0.8rem;
+  background:white;
+  margin-top: 0.13rem;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.out a{
+  color: black;
+  font-size: 0.2rem;
+}
+

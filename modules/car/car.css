@@ -1,0 +1,245 @@
+
+.carhead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: #333;
+  text-align: center;
+  font-size: 0.18rem;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f9fafd;
+  z-index: 100;
+}
+.space {
+  height: 0.6rem;
+}
+.carmain .information {
+  height: 1.14rem;
+  background: url(../img/bgline.jpg), url(../img/bgline.jpg);
+  background-repeat: repeat-x, repeat-x;
+  background-position: left top,left bottom;
+  background-size: auto 0.03rem,auto 0.03rem;
+}
+.carmain .information table {
+  height: 1.08rem;
+  color: #333;
+  font-size: 0.17rem;
+}
+.carmain .information table tr {
+  height: 0.36rem;
+  line-height: 0.36rem;
+}
+.carmain .information table tr td {
+  height: 0.36rem;
+}
+.carmain .information table tr td:first-of-type {
+  width: 1.15rem;
+  padding: 0.009rem 0.012rem 0.009rem 0.19rem;
+}
+.carmain .information table tr td:nth-of-type(2) {
+  width: 2.29rem;
+  padding: 0.009rem 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.carmain .information table tr td:last-of-type {
+  width: 0.7rem;
+}
+.carmain .information table tr td a {
+  color: #333;
+}
+.carmain .information table tr .noshow {
+  color: #fff;
+}
+.carmain .quick_super {
+  height: 0.83rem;
+  border-top: 0.12rem solid #efefef;
+  border-bottom: 0.01rem solid #ece9ec;
+  background: #ffffff;
+}
+.carmain .quick_super .title {
+  height: 0.38rem;
+  line-height: 0.38rem;
+  text-indent: 0.19rem;
+  color: #999;
+  font-size: 0.15rem;
+  position: relative;
+}
+.carmain .quick_super .title span:before {
+  content: "";
+  display: inline-block;
+  width: 0.05rem;
+  height: 0.15rem;
+  border-radius: 0.03rem;
+  background: #ffd600;
+  margin-right: 0.07rem;
+}
+.carmain .quick_super .title a {
+  display: inline-block;
+  color: #e64f1a;
+  border: 1px solid #ff3800;
+  border-radius: 0.2rem;
+  width: 0.93rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  position: absolute;
+  left: 3.03rem;
+  top: 0.07rem;
+}
+.carmain .quick_super p {
+  color: #999;
+  height: 0.25rem;
+  line-height: 0.25rem;
+  text-indent: 0.19rem;
+  font-size: 0.13rem;
+}
+.carmain .time {
+  height: 0.64rem;
+  line-height: 0.64rem;
+  border-bottom: 0.01rem solid #ece9ec;
+  text-indent: 0.19rem;
+  color: #333;
+  font-size: 0.17rem;
+  position: relative;
+}
+.carmain .time label {
+  float: left;
+}
+.carmain .time span:first-of-type {
+  color: #e64f1a;
+}
+.carmain .time span:last-of-type {
+  float: right;
+  margin: 0 0.19rem 0 0;
+}
+.carmain .time #select {
+  display: none;
+  position: absolute;
+  border: blue;
+  left: 0;
+  top: 0.64rem;
+  width: 100%;
+  height: 0.36rem;
+  background: #fff;
+}
+.carmain .remark {
+  height: 0.66rem;
+  line-height: 0.66rem;
+  text-indent: 0.19rem;
+  color: #333;
+  font-size: 0.17rem;
+  border-bottom: 0.01rem solid #ece9ec;
+}
+.carmain .remark input {
+  width: 2.84rem;
+  height: 0.43rem;
+  line-height: 0.43rem;
+  margin: 0 0 0 0.16rem;
+  outline: none;
+  text-indent: 0.08rem;
+  color: #b5b2b5;
+  font-size: 0.17rem;
+  border-radius: 0.05rem;
+  border: 0.01rem solid #cecece;
+}
+.carmain .goods_datail {
+  width: 4.14rem;
+}
+.carmain .goods_datail table {
+  width: 100%;
+}
+.carmain .goods_datail table tr {
+  height: 1.03rem;
+  border-bottom: 0.01rem solid gray;
+}
+.carmain .goods_datail table tr td {
+  text-align: center;
+  height: 1.02rem;
+  line-height: 1.02rem;
+}
+.carmain .goods_datail table tr td:first-of-type {
+  width: 0.64rem;
+}
+.carmain .goods_datail table tr td:first-of-type img {
+  vertical-align: middle;
+  width: 0.23rem;
+  height: 0.23rem;
+}
+.carmain .goods_datail table tr td:nth-of-type(2) {
+  width: 0.64rem;
+  background:url(http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@120w_120h_90Q)  no-repeat;
+  background-size: 0.64rem,0.64rem;
+  background-position: center center;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) {
+  width: 2.86rem;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) p {
+  height: 0.51rem;
+  line-height: 0.51rem;
+  font-size: 0.16rem;
+  text-align: left;
+  text-indent: 0.15rem;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) p:last-of-type {
+  position: relative;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) p:last-of-type span {
+  display: inline-block;
+  width: 1.1rem;
+  height: 0.37rem;
+  line-height: 0.37rem;
+  position: absolute;
+  left: 1.6rem;
+  top: 0;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) p:last-of-type span img {
+  vertical-align: middle;
+  width: 0.37rem;
+  height: 0.37rem;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) p:last-of-type span img:first-of-type {
+  float: left;
+}
+.carmain .goods_datail table tr td:nth-of-type(3) p:last-of-type span img:last-of-type {
+  float: right;
+}
+.carmain .goods_datail table tr:nth-of-type(2) td:nth-of-type(2) {
+  background:  url(http://img01.bqstatic.com/upload/goods/000/009/4173/0000094173_85400.jpg@120w_120h_90Q) no-repeat;
+  background-size: 0.64rem,0.64rem;
+  background-position: center center;
+}
+.carmain .goods_datail .account_div {
+  height: 0.76rem;
+  border-bottom: 0.12rem solid #efefef;
+  line-height: 0.64rem;
+  font-size: 0.16rem;
+}
+.carmain .goods_datail .account_div span {
+  display: inline-block;
+  height: 100%;
+}
+.carmain .goods_datail .account_div span:first-of-type {
+  width: 0.98rem;
+  margin: 0 0 0 0.2rem;
+}
+.carmain .goods_datail .account_div span:first-of-type img {
+  width: 0.23rem;
+  height: 0.23rem;
+  vertical-align: middle;
+  margin: 0 0.1rem 0 0;
+}
+.carmain .goods_datail .account_div span:nth-of-type(2) {
+  color: #e74c17;
+}
+.carmain .goods_datail .account_div span:last-of-type {
+  width: 1.3rem;
+  text-align: center;
+  background: #ffd700;
+  float: right;
+}
+

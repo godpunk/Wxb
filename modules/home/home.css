@@ -1,0 +1,317 @@
+@charset utf-8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100px;
+}
+body {
+  font-family: "微软雅黑";
+  width: 4.14rem;
+  font-size: 12px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clearfixed:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.header {
+  width: 4.14rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  position: fixed;
+  top: 0;
+  background-color: #ffd700;
+  z-index: 100;
+  text-align: center;
+}
+.header .dizhi {
+  float: left;
+  width: 3.5rem;
+  height: 0.6rem;
+}
+.header .dizhi a {
+  display: inline-block;
+  height: 100%;
+  font-size: 0.18rem;
+  color: #3f3b2e;
+  font-weight: bold;
+  position: relative;
+}
+.header .dizhi a .tra {
+  border-top: 0.12rem solid #3f3b2e;
+  border-left: 0.06rem solid transparent;
+  border-right: 0.06rem solid transparent;
+  border-bottom: 0.12rem solid transparent;
+  position: absolute;
+  left: 1rem;
+  top: 0.25rem;
+}
+.header img {
+  float: right;
+  width: 0.25rem;
+  height: 0.41rem;
+  margin: 0.08rem 0.08rem 0 0;
+}
+.space{
+  height: 0.6rem;
+}
+/*------图片轮播----*/
+.swiper-container {
+  width: 4.15rem;
+  height: 1.55rem;
+}
+.swiper-container img {请
+  width: 100%;
+  height: 100%;
+}
+/*------------------*/
+.homenav {
+  width: 4.14rem;
+  height: 1.4rem;
+  padding: 0.14rem 0;
+  background-color: #efefef;
+  display: flex;
+  font-size: 0.15rem;
+  color: #404b50;
+}
+.homenav div {
+  width: 25%;
+  height: 1.16rem;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+}
+.homenav div img {
+  width: 0.75rem;
+  height: 0.65rem;
+  margin: 0.12rem 0 0 0;
+}
+.brand_item {
+  width: 4.14rem;
+  height: 1.85rem;
+  border-bottom: 0.13rem solid #e8e5e8;
+}
+.brand_item img {
+  flex: 1;
+  width: 1.35rem;
+  height: 1.72rem;
+  border-right: 1px solid #e8e5e8;
+}
+.brand_item img:last-child {
+  border: none;
+}
+.tip {
+  width: 4.14rem;
+  height: 4.5rem;
+}
+.tip p {
+  width: 4.14rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+}
+.tip p img {
+  width: 100%;
+  height: 0.4rem;
+  vertical-align: middle;
+}
+.tip .pic1 {
+  padding: 0 0.13rem;
+}
+.tip .pic1 img {
+  width: 1.89rem;
+  height: 0.76rem;
+}
+.tip .pic2 {
+  display: flex;
+  height: 1.38rem;
+  border-bottom: 1px solid #e8e5e8;
+}
+.tip .pic2 div {
+  flex: 1;
+  width: 25%;
+  height: 1.18rem;
+  text-align: center;
+}
+.tip .pic2 div img {
+  width: 1.36rem;
+  height: 0.94rem;
+}
+.tip .pic2 div p {
+  width: 100%;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 0.15rem;
+  text-align: center;
+}
+.tip .pic3 {
+  width: 4.14rem;
+  height: 4.2rem;
+}
+.tip .pic3 img {
+  width: 2.05rem;
+  height: 0.82rem;
+}
+.sort {
+  width: 4.14rem;
+  padding: 0 0.12rem;
+}
+.sort .title {
+  height: 0.52rem;
+  line-height: 0.52rem;
+}
+.sort .title h3 {
+  float: left;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  margin: 0.17rem 0 0 0;
+  font-size: 0.18rem;
+  border-left: 0.1rem solid #f78631;
+  text-indent: 0.08rem;
+  color: #f78631;
+}
+.sort .title a {
+  float: right;
+  font-size: 0.18rem;
+  color: #848384;
+}
+.sort .displayPicture img {
+  width: 100%;
+  height: 0.98rem;
+  margin: 0 0 0.15rem 0;
+}
+.sort .goods figure {
+  width: 33%;
+  float: left;
+  border-right: 1px solid #e8e5e8;
+  padding: 0 0.05rem;
+}
+.sort .goods figure:last-child {
+  border: none;
+}
+.sort .goods figure img {
+  width: 1.14rem;
+  height: 1.14rem;
+}
+.sort .goods figure figcaption {
+  position: relative;
+}
+.sort .goods figure figcaption p {
+  width: 90%;
+  height: 0.25rem;
+  line-height: 0.2rem;
+  font-size: 0.15rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #232b33;
+}
+.sort .goods figure figcaption .label span {
+  display: inline-block;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.sort .goods figure figcaption .label .jx {
+  width: 0.34rem;
+  color: #ff1c1c;
+  background: #fff;
+  border: 1px solid #ff1c1c;
+  border-radius: 0.05rem;
+  margin: 0 0.08rem 0 0;
+}
+.sort .goods figure figcaption .label .zeng {
+  width: 0.58rem;
+  color: #fff;
+  background: #ff0000;
+  border: 1px solid #ff0;
+  border-radius: 0.05rem;
+}
+.sort .goods figure figcaption .weight {
+  height: 0.25rem;
+  line-height: 0.25rem;
+  padding: 0 0 0 0.02rem;
+  color: #a3a2a3;
+  font-size: 0.14rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-spacing: nowrap;
+}
+.sort .goods figure figcaption .price span {
+  font-size: 0.14rem;
+}
+.sort .goods figure figcaption .price .now {
+  color: #ff3902;
+}
+.sort .goods figure figcaption .price .prev {
+  color: #c4c3c4;
+  text-decoration: line-through;
+}
+.sort .goods figure figcaption .add {
+  position: absolute;
+  right: 0.08rem;
+  bottom: 0;
+  width: 0.33rem;
+  height: 0.33rem;
+  line-height: 0.3rem;
+  text-align: center;
+  font-size: 0.26rem;
+  font-weight: 600;
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: #ff4100;
+  background: #fff;
+}
+.main {
+  height: 3rem;
+}
+.footer {
+  width: 4.14rem;
+  height: 0.72rem;
+  background-color: #f7f7f7;
+  position: fixed;
+  bottom: 0;
+}
+.footer figure {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.footer figure img {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin: 0.08rem 0 0.02rem 0;
+}
+.footer figure figcaption p {
+  font-size: .15rem;
+  color: #949694;
+}
+.footer figure:nth-of-type(3) {
+  position: relative;
+}
+.footer figure:nth-of-type(3) span {
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+  border-radius: 50%;
+  background: #ff3a03;
+  color: #fff;
+  text-align: center;
+  font-size: 0.16rem;
+}

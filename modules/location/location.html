@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>location</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript">
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			recalc = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+			docEl.style.fontSize = 100 * (clientWidth / 414) + 'px';
+			};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/location.css">
+</head>
+<body>
+	<div class="back">
+        <div class="images">
+            <img src="img/location.jpg">
+            <figure>
+                <img src="img/loc.jpg">
+                <figcaption>
+                    定位中
+                </figcaption>
+            </figure>            
+        </div>
+    </div>
+    <div class="hidden">
+       <div class="up">
+            "http://wenxin.beequick.cn" 想使<br>用您的位置   
+       </div> 
+       <div class="down">
+           <a href="#" id="no">不允许</a>
+            <a href="首页.html" class="yes">好</a>
+       </div> 
+    </div>
+    <script type="text/javascript">
+    document.getElementById("no").onclick = function(){
+        var hid = document.getElementsByClassName("hidden");
+        hid[0].style.display = "none";
+    }
+
+    </script> 
+</body> 
+<html>

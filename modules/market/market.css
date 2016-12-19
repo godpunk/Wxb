@@ -1,0 +1,151 @@
+
+
+/*=============main=============*/
+.marketmain{
+  margin-top: 0.59rem;
+}
+.marketmain .left{
+  position: fixed;
+  float: left;
+  width: 0.98rem;
+}
+.marketmain .left li{
+  height: 0.51rem;
+  width: 0.98rem;
+  text-align: center;
+  line-height: 0.51rem;
+  background: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+.marketmain .left li a{
+  color: #6d6d6d;
+  font-size: 0.15rem;
+}
+.marketmain .right{
+  width: 3.1rem;
+  display: inline-block;
+  height: 6.72rem;
+  background: white;
+  margin-left: 0.98rem;
+  overflow-y:scroll; 
+}
+.marketmain .right ul{
+  float: right;
+  position: fixed;
+  background: #ffffff;
+  opacity: 5;
+}
+.right ul li{
+  float: left;
+  width: 0.5rem;
+  width: 1.5rem;
+  height: 0.51rem;
+  text-align: center;
+  line-height: 0.51rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.right ul li a{
+  color: #777777;
+  font-size: 0.15rem;
+}
+.right ul li img{
+  margin-bottom:0.06rem; 
+  margin-left: 0.03rem;
+}
+.right  figure:first-of-type{
+  margin-top: 0.51rem;
+}
+.right  figure {
+ 
+  clear: both;
+  width: 3.1rem;
+  border-right: 1px solid #e8e5e8;
+  border-bottom: 1px solid #e0e0e0; 
+  text-align: center;
+  height: 1.16rem;
+}
+
+.right  figure img {
+  width: 0.57rem;
+  height: 0.82rem;
+  margin-top: 0.18rem;
+}
+.right  figure figcaption {
+  position: relative;
+  height: 1.1rem;
+  width: 1.94rem;
+  float: right;
+  top: 0.2rem;
+  padding-left: 0;
+  font-weight: 900;
+}
+.right  figure figcaption p {
+  width: 90%;
+  height: 0.25rem;
+  line-height: 0.2rem;
+  font-size: 0.15rem; 
+  color: #232b33;
+}
+.right  figure figcaption .label span {
+  display: inline-block;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  text-align: center;
+  font-size: 0.12rem;
+}
+.right  figure figcaption .label{
+  margin-left: -0.6rem;
+}
+.right  figure figcaption .label .jx {
+  width: 0.34rem;
+  color: #ff1c1c;
+  background: #fff;
+  border: 1px solid #ff1c1c;
+  border-radius: 0.05rem;
+
+}
+.right  figure figcaption .label .zeng {
+  width: 0.58rem;
+  color: #fff;
+  background: #ff0000;
+  border: 1px solid #ff0;
+  border-radius: 0.05rem;
+}
+.right  figure figcaption .weight {
+  height: 0.25rem;
+  line-height: 0.25rem;
+  margin-left: -0.8rem;
+  color: #a3a2a3;
+  font-size: 0.14rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-spacing: nowrap;
+}
+.right  figure figcaption .price {
+ margin-left: -0.8rem;
+}
+.right  figure figcaption .price span {
+  font-size: 0.14rem;
+}
+.right  figure figcaption .price .now {
+  color: #ff3902;
+}
+.right  figure figcaption .price .prev {
+  color: #c4c3c4;
+  text-decoration: line-through;
+}
+.right  figure figcaption .add {
+  position: absolute;
+  right: 0.08rem;
+  bottom: 0.3rem;
+  width: 0.33rem;
+  height: 0.33rem;
+  line-height: 0.3rem;
+  text-align: center;
+  font-size: 0.26rem;
+  font-weight:bolder;
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: #ff4100;
+  background: #fff;
+}

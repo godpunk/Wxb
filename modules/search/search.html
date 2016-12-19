@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>search</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript">
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			recalc = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+			docEl.style.fontSize = 100 * (clientWidth / 414) + 'px';
+			};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+</head>
+<body>
+    <div id="header">
+        <img src="img/left.jpg">
+        <input type="text" placeholder="请输入商品名称">
+        <a href="#">搜索</a>   
+    </div>  
+    <div id="hot">
+        <a href="#">热门搜索</a>
+        <ul>
+            <li><a href="#">大闸蟹</a></li>
+            <li><a href="#">中秋月饼</a></li>
+            <li><a href="#">大荔冬枣</a></li>
+            <li><a href="#">啤酒</a></li>
+            <li><a href="#">西瓜</a></li>
+            <li><a href="#">贝尔蛋糕</a></li>
+            <li><a href="#">月盛斋</a></li>
+        </ul>
+    </div>
+    <div id="history">
+         <a href="#">历史记录</a>
+         <ul>
+            <li><a href="#">大闸蟹</a></li>
+        </ul>
+    </div>
+    <input type="button" value="清除记录" id="button">
+</body> 
+<html>

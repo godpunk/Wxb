@@ -1,0 +1,129 @@
+@charset utf-8;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100px;
+}
+body {
+ 
+  width: 4.14rem;
+  height: 7.36rem;
+  font-size: 12px;
+  position: relative;
+  background: #efefef;
+  height: 8rem;
+  
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ul,li{
+  list-style: none;
+}
+.header{
+  height: 2.75rem;
+  background: #ffffff;
+}
+.header>p{
+  width: 100%;
+  height: 0.58rem;
+  background: #f9fafd;
+  line-height: 0.58rem;
+  text-align: center;
+  font-size: 0.2rem;
+  font-weight: bolder;
+  background-image: url(../img/left.jpg);
+  background-repeat: no-repeat;
+  background-position: 0.2rem center;
+  position: fixed;
+  top: 0;
+}
+
+
+
+
+
+.upscore{
+  width: 1.76rem;
+  height: 1.76rem;
+  background: #dddddd;
+  border-radius: 50%;
+ margin: 0.14rem auto;
+ padding: 0.24rem;
+margin-top: 0.58rem;
+}
+.upscore p {
+  width: 1.3rem;
+  height: 1.3rem;
+  border:0.1rem solid #c7c7c7;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  padding-top: 0.3rem;
+  font-size: 0.18rem;
+  color: #b9b9b9;
+
+}
+.upscore p span{
+  font-weight: bolder;
+  font-size: 0.25rem;
+}
+.header .fig{
+  text-align: center;
+  border-top:1px solid #e0e0e0;
+}
+
+.header figure{
+  display: inline-block;
+  width: 30%;
+  height: 0.85rem;  
+  border-right:1px solid #e0e0e0;
+    
+}
+.header figure img{
+  margin-top: 0.15rem;
+}
+.header figure:nth-of-type(3){
+  border:none;
+}
+
+.header figure figcaption{
+  margin-top: 0.12rem;
+  font-size: 0.17rem;
+  color:#b9b9b9;
+}
+/*==========main===========*/
+.main{
+  background: #ffffff;
+  margin-top: 0.15rem;
+  height: 3.73rem;
+  width: 100%;
+
+}
+.main figure{
+  float: left;
+  width: 50%;
+  height: 1.93rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  border-right:0.005rem solid #e0e0e0;
+   border-bottom:0.005rem solid #e0e0e0;
+}
+.main figure figcaption{
+  margin-top: 0.33rem;
+  font-size: 0.16rem;
+  padding-right:0.8rem;
+}
+.main figure p{
+  font-size: 0.16rem;
+  margin-top:0.1rem;
+  padding-right:1.2rem;
+  color: red;
+}
